@@ -21,7 +21,8 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import sys
 import os 
-
+from sympy import symbols, sympify, lambdify
+import numpy as np
 # ======================================================================
 # 1. CLASE PRINCIPAL
 # ======================================================================
