@@ -23,7 +23,8 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 import sys
 import os
-
+from sympy import symbols, sympify, lambdify
+import numpy as np
 # ======================================================================
 # 1. CLASE PRINCIPAL
 # ======================================================================
